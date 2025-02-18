@@ -1,0 +1,7 @@
+tree1 = 98
+tree2 = 107
+tree3 = 178
+sum = tree1 + tree2 + tree3 
+average = sum/3
+print ("The sum of the trees is :" , sum )
+print ("The average of the trres is :" , average)
