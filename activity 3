@@ -1,8 +1,6 @@
-sub1 = int(input("What did you get in english"))
-sub2 = int(input("What did you get in maths"))
-sub3 = int(input("What did you get in hindi"))
-sub4 = int(input("What did you get in science"))
-sum = sub1 + sub2 + sub3 + sub4
-print (sum/400)
-prc = (sum/400) * 100
-print ("percentage = " , prc)
+i= int(input("Enter a number: "))
+d= int(input("Enter another number: "))
+if i>d :
+    print(i , "is greater")
+else :
+    print(d, "is greater")

@@ -1,0 +1,7 @@
+CP = float (input("Please enter the cost price of the product: "))
+SP = float (input("Please enter the selling price: "))
+if (SP > CP) :
+   amount = SP - CP 
+   print ("Total Profit = {0}".format(amount))
+else :
+   print ("No profit!!")
