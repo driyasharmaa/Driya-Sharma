@@ -1,0 +1,5 @@
+temp = int(input("What is the temprature? "))
+if temp<0 :
+    print("It's cold, wear warm clothes.")
+else :
+    print("It's warm, wear cool, light clothes.")
