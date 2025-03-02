@@ -1,0 +1,5 @@
+user = input("Enter a number ")
+if user.isalpha() and len(user)== 1:
+    print ("It's a letter in the alphabet")
+else:
+    print ("It's not a letter in the alphabet")
