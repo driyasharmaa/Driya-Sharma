@@ -1,11 +1,15 @@
-a = 10
-b = -10 
-# print bitwise shift operator
-print ("a >> 1", a >> 1)
-print ("b >> 1", b >> 1)
+name = "Orlaith"
+age = 0
+if name == "Alex" or name == "John" and age >= 2 :
+    print ("Hello welcome!")
+else :
+    print ("Goodbye!")
 
-a = 67
-b = -67
-# print bitwise shift operator
-print ("a << 1", a << 1)
-print ("b << 1", b << 1)
+print("Enter a number (numerator): ")
+numn = int(input())
+print ("Enter a number (denominator): ") 
+numd = int(input())
+if numn%numd == 0:
+    print("\n" + str (numn)+ " is divisible by " + str(numd))
+else :
+        print("\n" + str (numn)+ " is not divisible by "+ str(numd))

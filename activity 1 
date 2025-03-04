@@ -1,15 +1,7 @@
-a = 12
-b = 6
-c = 3
-if a and b and c:
-    print ("All of the numbers have a boolean value as true")
-else: 
-    print ("Atleast one number has a boolean value as false")
-a = 78
-b = 67
-c = 45
-if a > b > c:
-    print ("Either one of the numbers are greater than zero")
-else: 
-    print ("No number is greater than zero")
-    
+v = 8
+b = 9
+c = 12
+d = 15
+g = 6
+s = (v + c) / d*g ;
+print ("The value of (v +c) / d*g", s)
