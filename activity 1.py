@@ -1,12 +1,30 @@
-#Take input for the student that he can attend the exam or nit
-medical_cause=input("Did you have a medical cause yes or no: ")
-#Take input of the attendance 
-atten = int(input("Enter the students attendance: "))
-#checking the user input predicting output accordingly
-if medical_cause == 'Y' : #checking the condition 1 
-    print("You are allowed.")
-else:
-    if atten>=75: #checking the condition 2
-        print ("Allowed")
-    else:
-        print("Not allowed")
+import turtle
+
+turtle.Screen().bgcolor("Aqua")
+board = turtle.Turtle()
+ 
+# first triangle for star
+board.forward(100) # draw base
+ 
+board.left(120)
+board.forward(100)
+ 
+board.left(120)
+board.forward(100)
+ 
+board.penup()
+board.right(150)
+board.forward(50)
+ 
+# second triangle for star
+board.pendown()
+board.right(90)
+board.forward(100)
+ 
+board.right(120)
+board.forward(100)
+ 
+board.right(120)
+board.forward(100)
+ 
+turtle.done()
